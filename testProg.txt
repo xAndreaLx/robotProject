@@ -1,0 +1,11 @@
+set cpt 1
+ADD csqdpt 9
+set cpt2 2
+div cpt cpt2 
+set cpt3 
+
+set new 1354
+add CPT 9
+qsd cpt sqd
+random new sdfsd
+sqdqs sqd sqd 

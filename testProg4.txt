@@ -1,0 +1,9 @@
+set cpt 1 
+label debutBoucle
+jumpEqual cpt 10 finBoucle
+add cpt 1
+mult cpt 2
+goto debutBoucle
+label finBoucle
+random rand 100
+mult cpt rand

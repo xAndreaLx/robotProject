@@ -1,0 +1,7 @@
+advance 1
+extract
+advance 1
+detect res 9 4
+advance 2
+advance 2
+advance 2 

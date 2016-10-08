@@ -1,0 +1,19 @@
+label debut
+detect res 0 1
+jumpEqual res 1 creuse
+detect res 1 1
+jumpEqual res 1 creuse
+detect res 3 1
+jumpEqual res 1 creuse
+set dir 0
+label nextdir
+detect res dir 1
+jumpEqual res 0 avancer
+add dir 1
+goto nextdir
+label avancer
+advance dir
+goto debut
+label creuse
+extract
+goto debut
